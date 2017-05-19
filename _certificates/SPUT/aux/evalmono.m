@@ -4,6 +4,8 @@
 %% P(i,1:n) = powers of the i-th monomial
 %%
 %% This is a more stable way to evaluate Fx.
+%%
+%% Author: Kim-Chuan Toh
 %%********************************************************************
 
 function Px = evalmono(P,x)

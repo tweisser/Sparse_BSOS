@@ -1,6 +1,7 @@
 %%***************************************************************%%
 % This function generates an sos polynomial in the variables I of %
 % degree k and lifts the result to a polynomial in n variables    %
+% Author: Tillmann Weisser   
 %%***************************************************************%%
 
 function [exponents, coeffs] = sospol(I,n,k)

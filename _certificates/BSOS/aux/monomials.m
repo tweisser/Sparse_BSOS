@@ -5,6 +5,7 @@
 %%
 %% (n,deg) = (20,6), size(list) = [230230,20], 23.1% nnz.
 %% (n,deg) = (50,4), size(list) = [316251,50], 7.4% nnz.
+%% Author: Kim-Chuan Toh
 %%********************************************************************
 
     function list = monomials(n,deg)

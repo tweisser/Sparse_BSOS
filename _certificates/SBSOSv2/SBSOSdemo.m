@@ -1,3 +1,9 @@
+%%*********************************************************
+%% Demo file with minimal example for SBSOS
+%%
+%% Author: Tillmann Weisser
+%%*********************************************************
+
 clear all;
 clc;
 

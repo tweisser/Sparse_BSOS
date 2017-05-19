@@ -1,3 +1,12 @@
+%********************************************************************
+%% G2GG: converts constraints designed for (S)BSOS to constraints for 
+%%       SPUT. Polynomials g \in G for (S)BSOS are understood to def-
+%%	 ine inequalities 0<=g(x)<=1, whereas for SPUT they are under-
+%%	 stood as 0<=g(x).
+%%
+%% Author: Tillmann Weisser
+%%********************************************************************
+
 function [ GG,JJ ] = G2GG( G,J )
 if isempty(G)
     GG = G;

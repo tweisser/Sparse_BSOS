@@ -1,6 +1,7 @@
 %%***********************************************************%%
 % This function generates all polynomials h_{\alpha \beta}    %
 % described in Section The Sparse Bounded-SOS-hierarchy       %
+% Author: Tillmann Weisser
 %%***********************************************************%%
 
 function [HABd,nAB] = hpols(G,d)

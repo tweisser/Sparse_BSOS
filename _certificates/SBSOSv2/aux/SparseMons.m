@@ -2,6 +2,7 @@
 % This function generates all monomials of degree less or equal  %
 % than deg in n variables, only considering the variables listed %
 % in I.                                                          %
+% Author: Tillmann Weisser
 %%**************************************************************%%
 
 function [list,mons] = SparseMons(n,deg,I)

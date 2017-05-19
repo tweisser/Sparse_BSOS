@@ -1,3 +1,14 @@
+%%********************************************************************
+%% rankBSOS: returns the rank of the dual psd variable corresponding to the 
+%%           sum of squares in the BSOS hierarchy.
+%% n: number of variables
+%% s: 2*s is the degree of the sum of squares
+%% y: dual variable of the sum of squares
+%% xrand: matrix of sampling points used to express the equality constraint in BSOS
+%%
+%% Author: Kim-Chuan Toh, Tillmann Weisser
+%%********************************************************************
+
 function [rankMM, mineig] = rankBSOS(n,s,y,xrand)
 
     V1 = monomials(n,s);
@@ -33,3 +44,4 @@ function [rankMM, mineig] = rankBSOS(n,s,y,xrand)
     mineig = min(eigMM);
     
     fprintf('\n rank of M(y) = %2.0f, mineigM = %3.2e\n\n',rankMM,mineig);
+%%********************************************************************

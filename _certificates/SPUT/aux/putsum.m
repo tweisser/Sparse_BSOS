@@ -1,3 +1,9 @@
+%%************************************************************%%
+% putsum: generates a summand of the putinar type certificate
+% (internal use)
+% Author: Tillmann Weisser   
+%%************************************************************%%
+
 function [pexp,ii,jj,vv] = putsum(pexp,ii,jj,vv,block,n,sossize,constraint)
 
 if isempty(pexp)

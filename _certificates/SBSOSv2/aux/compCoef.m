@@ -1,6 +1,9 @@
 %%***************************************************************%%
-% This function compares the monomials in mons and adds the rows  %
-% of coefs, when the corresponding monomials in mons are equal    %
+% (Internal use only)
+% This function compares the monomials in mons and adds the rows  
+% of coefs, when the corresponding monomials in mons are equal    
+%
+% Author: Kim-Chuan Toh, Tillmann Weisser
 %%***************************************************************%%
 
 function list = compCoef(mons,coefs,prec)

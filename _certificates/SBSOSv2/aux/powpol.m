@@ -1,6 +1,7 @@
 %%***************************************************************%%
 % This function generates a list of all powers of the polynomial  %
-% pol up to power n                                               %
+% pol up to power n  (internal use)                               %
+% Author: Tillmann Weisser
 %%***************************************************************%%
 
 function [pset] = powpol(pol,n,output)

@@ -1,6 +1,7 @@
 %%****************************************************%%
 % This function generates the moment matrix to a given %
-% sequence                                             %
+% sequence (internal use)                              %
+% Author: Tillmann Weisser, Kim-Chuan Toh
 %%****************************************************%%    
 
 function MM = momentmatrix(yy,n,degfg)

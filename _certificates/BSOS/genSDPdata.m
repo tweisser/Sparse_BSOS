@@ -1,8 +1,15 @@
 %%********************************************************************
+%% genSDPdata: generates the SDP corresponding to the BSOS hierarchy
+%%
 %% F: objective polynomial
 %% G: a cell array containing the constraint polynomails
 %% dd: the degree of Lagrangian dual relaxation
 %% kk: the degree of SOS relaxation
+%%
+%% rmdepFLAG: internal use only
+%% gridOn: internal use only
+%%
+%% Author: Kim-Chuan Toh, Tillmann Weisser
 %%********************************************************************
 
 function [blknew,Atnew,C,bnew,xrandall,maxdeg] = genSDPdata(F,G,dd,kk,rmdepFLAG,gridOn)

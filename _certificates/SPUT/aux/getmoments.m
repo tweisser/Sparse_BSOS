@@ -2,6 +2,7 @@
 % This function builds all moment sequences corresponding to  %
 % the different blocks of variables present in the sparsity   %
 % pattern.                                                    %
+% Author: Tillmann Weisser
 %%***********************************************************%%    
 
 function YY = getmoments(y,At,I,maxdeg,nspcons)

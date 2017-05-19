@@ -1,16 +1,18 @@
-    %%*********************************************************
-    %% This code generates the Sparse Bounded Sums Of Squares 
-    %% hierarchy for SDPT3
-    %%*********************************************************
-    %% F: objective polynomial
-    %% G: a cell array containing the constraint polynomials
-    %% I: a cell array explaining sparsity in variables
-    %% J: a cell array explaining sparsity in constraints
-    %% dd: the degree of Lagrangian dual relaxation
-    %% kk: the degree of SOS relaxation
-    %%
-    %% This version is able to handle kk = 0 (i.e. [in abuse of notation] the LP case)
-    %%*********************************************************
+%%*********************************************************
+%% This code generates the Sparse Bounded Sums Of Squares
+%% hierarchy for SDPT3 (internal use)
+%% (this is an old version and not used in the code)
+%%*********************************************************
+%% F: objective polynomial
+%% G: a cell array containing the constraint polynomials
+%% I: a cell array explaining sparsity in variables
+%% J: a cell array explaining sparsity in constraints
+%% dd: the degree of Lagrangian dual relaxation
+%% kk: the degree of SOS relaxation
+%%
+%% This version is able to handle kk = 0 (i.e. [in abuse of notation] the LP case)
+%% Author: Tillmann Weisser
+%%*********************************************************
 
 
     function [bblk,AAt,CC,bb,constant,time,recy,degfg] = genSBSOSdatav1(F,G,I,J,dd,kk)

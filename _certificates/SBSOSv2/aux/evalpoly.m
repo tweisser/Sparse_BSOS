@@ -5,6 +5,7 @@
 %% F(i,n+1) = coefficent
 %%
 %% This is a more stable way to evaluate Fx.
+%% Author: Kim-Chuan Toh
 %%********************************************************************
 
     function Fx = evalpoly(F,x)

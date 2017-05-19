@@ -1,3 +1,9 @@
+%%***************************************************************%%
+% This function searches for 1x1 psd variables and converts them 
+% to non negative variables   
+% Author: Tillmann Weisser
+%%***************************************************************%%
+
 function [bblk,AAt,CC,b] = elimPSDvars( blk,At,C,b )
 %this function searches for 1x1 psd variables and converts them to non
 %negative variables

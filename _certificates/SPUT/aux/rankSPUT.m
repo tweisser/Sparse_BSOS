@@ -1,6 +1,7 @@
 %%*******************************************************%%
 % This function computes the ranks of all moment matrices %
 % corresponding to the given moment matrices.             %
+% Author: Tillmann Weisser   
 %%*******************************************************%%    
 
 function [RANK, mineig] = rankSPUT(YY,I,degfg,reldeg)

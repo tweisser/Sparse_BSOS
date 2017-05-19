@@ -1,3 +1,9 @@
+%%************************************************************%%
+% mom2x: extracts the first moments of a familiy of moment sequences
+% (internal use)
+% Author: Tillmann Weisser   
+%%************************************************************%%
+
 function x = mom2x(YY,pop)
 
 x = zeros(pop.n,1);

@@ -1,6 +1,7 @@
 %%***********************************************************%%
 % This function recovers the original dual variable from the  %
-% output of the solver                                        %
+% output of the solver (internal use)                         %
+% Author: Tillmann Weisser
 %%***********************************************************%%    
 
 function  YY  = recovery(recy,yy)

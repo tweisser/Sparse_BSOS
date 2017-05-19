@@ -1,12 +1,14 @@
-    %%*********************************************************
-    %% This code generates the Sparse Lasserre hierarchy for SDPT3
-    %%*********************************************************
-    %% F: objective polynomial
-    %% G: a cell array containing the constraint polynomials
-    %% I: a cell array explaining sparsity in variables
-    %% J: a cell array explaining sparsity in constraints
-    %% d: the degree of the relaxation
-    %%*********************************************************
+%%*********************************************************
+%% This code generates the Sparse Lasserre hierarchy for SDPT3
+%%*********************************************************
+%% F: objective polynomial
+%% G: a cell array containing the constraint polynomials
+%% I: a cell array explaining sparsity in variables
+%% J: a cell array explaining sparsity in constraints
+%% d: the degree of the relaxation
+%%
+%% Author: Tillmann Weisser
+%%*********************************************************
 
 
     function [bblk,AAt,CC,bb,constant,time,recy,degfg] = genSPUTdata(F,G,I,J,d)
