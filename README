@@ -1,0 +1,10 @@
+In this repository we provide the Matlab code we used for our tests in Weisser, Lasserre, Toh: Sparse-BSOS: Sparse-BSOS: a bounded degree SOS hierarchy for large scale polynomial optimization with sparsity. 
+
+In  _certificates we provide implementations of different certificates:
+- BSOS: code used for testings in Lasserre, Toh, Yang: "A bounded degree SOS hierarchy for polynomial optimization" EJCO 2017,
+- Sparse-BSOS: our code as described in this paper
+- Sparse-PUT:our code as described in the paper. 
+
+- SDPT3-4.0_modified_by_KCT: This is the version of sdpt3, we were using for our experiments.
+
+- test_suite: This folder contains all examples mentioned in the paper

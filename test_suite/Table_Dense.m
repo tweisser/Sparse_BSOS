@@ -1,0 +1,3 @@
+cd Dense/
+tabledense
+cd ..

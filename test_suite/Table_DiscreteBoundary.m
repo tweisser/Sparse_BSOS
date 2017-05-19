@@ -1,0 +1,3 @@
+cd DiscreteBoundary/
+Table_nonlin_functions('DiscreteBoundary', 15:5:35,1:3,3)
+cd ..
