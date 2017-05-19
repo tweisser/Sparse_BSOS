@@ -28,10 +28,10 @@ pop.G{3} = [2 0 -1; 0 2 -1; 0 0 1];
 
 pop.J = {[1,2,3]};
 
-k=0; 
-d=7;
+pop.k=1; 
+pop.d=2;
 
-sdp = gendata(pop,d,k,'SBSOS');
+sdp = gendata2(pop,'SBSOS');
 
 sol = csol(sdp,'sdpt3');
 

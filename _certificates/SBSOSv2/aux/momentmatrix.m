@@ -6,7 +6,7 @@
 
 function MM = momentmatrix(yy,n,degfg)
 
-    if mod(degfg,2); 
+    if mod(degfg,2)
         %display('degfg needs to be even');
         degfg= degfg+1; 
     end

@@ -10,7 +10,6 @@
 %% dd: the degree of Lagrangian dual relaxation
 %% kk: the degree of SOS relaxation
 %%
-%% This version is able to handle kk = 0 (i.e. [in abuse of notation] the LP case)
 %% Author: Tillmann Weisser
 %%*********************************************************
 
